@@ -1,0 +1,102 @@
+Write a C program to swap the values of two integer variables without using a temporary (third) variable.
+Write a program to find the largest among three distinct numbers entered by the user.
+Write a program to calculate the roots of a quadratic equation (ax² + bx + c = 0), handling all cases: real and distinct, real and equal, and imaginary roots.
+Write a C program that takes principal amount, rate of interest, and time in years as input and calculates the simple interest.
+Write a program that converts a temperature from Celsius to Fahrenheit using the formula F = (C * 9/5) + 32.
+Write a program to take a decimal number as input and convert it into its binary representation.
+Write a program to check if a given year is a leap year or not.
+Create a simple calculator that performs addition, subtraction, multiplication, or division based on user input, using a switch statement to handle the operations.
+Write a program using nested for loops to print a right-angled triangle pattern of asterisks.
+Write a function int isPrime(int n) that returns 1 if a number is prime and 0 otherwise. Use this function in main() to check a user-entered number.
+Write a function void findMinMax(int arr[], int size, int* min, int* max) that finds the minimum and maximum elements in an array and returns them via pointers.
+Write a function to calculate the power of a number (a^b) without using the pow() library function.
+Write a program to read N integers into a one-dimensional array and then reverse the array in-place (without using a second array).
+Write a program to add two 3x3 matrices.
+Write a program to find the second largest element in a one-dimensional integer array.
+Write a function void swap(int *a, int *b) that swaps the values of two integer variables using pointers and call it from main().
+Write a program to find the length of a string using a pointer, without using the strlen() library function.
+Write a function that takes an integer array and its size as input and returns the sum of all its elements using pointer arithmetic to traverse the array.
+Define a structure Book with title, author, and price. Write a program to read the details of 3 books and display the book with the highest price.
+Define a structure Student with roll_no, name, and an array for marks in 5 subjects. Write a program to read data for one student and calculate their total marks and percentage.
+Define a union named DataType that can hold an int, a float, and a char. Demonstrate that only one member can be used at a time.
+Write a program that asks the user to enter a line of text and appends it to a file named log.txt.
+Write a program that reads a text file and counts the total number of characters, spaces, and lines in it.
+Write a program to copy the contents of one file (source.txt) to another file (destination.txt), handling file-not-found errors.
+Write a program to concatenate two strings into a third string without using the strcat() library function.
+Write a program to check if a given string is a palindrome (reads the same forwards and backward), ignoring case.
+Write a program that takes a string as input and counts the frequency of each character in it.
+Write a recursive function to calculate the factorial of a non-negative integer.
+Write a recursive function to generate the Nth term in the Fibonacci sequence.
+Write a recursive function int multiply(int a, int b) that calculates the product of two integers without using the * operator (you can use addition and subtraction).
+
+
+
+
+
+no need to label all question diffrently give me 1 commplete list of all 30 questions
+
+gemini-2.5-pro
+Of course! Here are 30 programming-only questions based on the topics you provided.
+
+Introduction to Programming & Problem-Solving (3 Questions)
+Write a C program to swap the values of two integer variables without using a temporary (third) variable.
+Write a program to find the largest among three distinct numbers entered by the user.
+Write a program to calculate the roots of a quadratic equation (ax² + bx + c = 0). The program should handle all three cases: real and distinct roots, real and equal roots, and imaginary roots.
+C Language Fundamentals (3 Questions)
+Write a C program that takes principal amount, rate of interest, and time in years as input and calculates the simple interest. Use appropriate data types for all variables.
+Write a program that converts a temperature from Celsius to Fahrenheit. The formula is F = (C * 9/5) + 32.
+Write a program to take a decimal number as input and convert it into its binary representation.
+Control Structures (3 Questions)
+Write a program to check if a given year is a leap year or not. A year is a leap year if it is divisible by 4, except for end-of-century years, which must be divisible by 400.
+Write a program to create a simple calculator that performs addition, subtraction, multiplication, or division based on user input. The user should enter two numbers and an operator (+, -, *, /). Use a switch statement to handle the operations.
+Write a program using nested for loops to print the following pattern:
+text
+
+*
+**
+***
+****
+*****
+Functions (3 Questions)
+Write a function int isPrime(int n) that takes an integer n as input and returns 1 if the number is prime and 0 otherwise. Use this function in your main() to check a number entered by the user.
+Write a function void findMinMax(int arr[], int size, int* min, int* max) that finds the minimum and maximum elements in an array. The results should be stored in the variables pointed to by min and max.
+Write a function to calculate the power of a number (a^b) without using the pow() library function. The function should take the base and exponent as arguments.
+Arrays (3 Questions)
+Write a program to read N integers into a one-dimensional array and then reverse the array in-place (i.e., without using a second array).
+Write a program to add two 3x3 matrices. You will need to declare three 2D arrays: two for the input matrices and one for the result.
+Write a program to find the second largest element in a one-dimensional integer array.
+Pointers (3 Questions)
+Write a function void swap(int *a, int *b) that swaps the values of two integer variables using pointers. Call this function from main() to demonstrate its usage.
+Write a program to find the length of a string using a pointer. Do not use the strlen() library function.
+Write a function that takes an integer array and its size as input and returns the sum of all its elements. Use pointer arithmetic to traverse the array instead of array indexing (arr[i]).
+Structures and Unions (3 Questions)
+Define a structure named Book with members title (char array), author (char array), and price (float). Write a program to read the details of 3 books and display the details of the book with the highest price.
+Define a structure Student with members roll_no, name, and an array of 5 integers for marks in 5 subjects. Write a program to read the data for one student and calculate their total marks and percentage.
+Define a union named DataType that can hold an int, a float, and a char. Write a program to demonstrate that only one member of the union can be used at a time by assigning a value to the integer member, printing it, then assigning a value to the float member, and printing all members again to observe the corrupted data.
+File Handling (3 Questions)
+Write a program that asks the user to enter a line of text and saves it to a file named log.txt. If the file already exists, the new text should be appended to the end of the file.
+Write a program that reads a text file named source.txt and counts the total number of characters, spaces, and lines in it.
+Write a program to copy the contents of one file (source.txt) to another file (destination.txt). The program should handle cases where the source file does not exist.
+String Handling (3 Questions)
+Write a program to concatenate two strings into a third string without using the strcat() library function.
+Write a program to check if a given string is a palindrome (reads the same forwards and backward), ignoring case. For example, "Madam" should be considered a palindrome.
+Write a program that takes a string as input and counts the frequency of each character in it.
+Recursion (3 Questions)
+Write a recursive function to calculate the factorial of a non-negative integer.
+Write a recursive function to generate the Nth term in the Fibonacci sequence (0, 1, 1, 2, 3, 5, ...).
+Write a recursive function int multiply(int a, int b) that calculates the product of two integers without using the * operator. You can use addition and subtraction. (Hint: a * b is a added to itself b times).
+
+
+
+
+write 30 programming question(no need for theory questions only programming questions using the topics provided) on topic kIntroduction to Programming: Basics of algorithms and their significance, along with understanding problem-solving through programming.
+C Language Fundamentals: Covers C syntax, data types (int, float, char, etc.), and number systems (binary, octal, decimal, hexadecimal).
+Control Structures: if-else, switch, for, while, and do-while loops.
+Functions: Definition, declaration, and use of user-defined functions to break down programs.
+Arrays: Declaring and manipulating one-dimensional and multi-dimensional arrays.
+Pointers: Understanding and using pointers for memory management and dynamic operations.
+Structures and Unions: Defining user-defined data types to group related variables.
+File Handling: Reading from and writing to files, including different file opening modes.
+String Handling: Functions and techniques for manipulating strings.
+Recursion: Understanding recursive functions as an alternative to iterative approaches, with potential programming assignments like multiplying integers without the * operator.
+
