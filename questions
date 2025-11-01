@@ -1,55 +1,22 @@
-Write a C program to swap the values of two integer variables without using a temporary (third) variable.
-Write a program to find the largest among three distinct numbers entered by the user.
-Write a program to calculate the roots of a quadratic equation (ax² + bx + c = 0), handling all cases: real and distinct, real and equal, and imaginary roots.
-Write a C program that takes principal amount, rate of interest, and time in years as input and calculates the simple interest.
-Write a program that converts a temperature from Celsius to Fahrenheit using the formula F = (C * 9/5) + 32.
-Write a program to take a decimal number as input and convert it into its binary representation.
-Write a program to check if a given year is a leap year or not.
-Create a simple calculator that performs addition, subtraction, multiplication, or division based on user input, using a switch statement to handle the operations.
-Write a program using nested for loops to print a right-angled triangle pattern of asterisks.
-Write a function int isPrime(int n) that returns 1 if a number is prime and 0 otherwise. Use this function in main() to check a user-entered number.
-Write a function void findMinMax(int arr[], int size, int* min, int* max) that finds the minimum and maximum elements in an array and returns them via pointers.
-Write a function to calculate the power of a number (a^b) without using the pow() library function.
-Write a program to read N integers into a one-dimensional array and then reverse the array in-place (without using a second array).
-Write a program to add two 3x3 matrices.
-Write a program to find the second largest element in a one-dimensional integer array.
-Write a function void swap(int *a, int *b) that swaps the values of two integer variables using pointers and call it from main().
-Write a program to find the length of a string using a pointer, without using the strlen() library function.
-Write a function that takes an integer array and its size as input and returns the sum of all its elements using pointer arithmetic to traverse the array.
-Define a structure Book with title, author, and price. Write a program to read the details of 3 books and display the book with the highest price.
-Define a structure Student with roll_no, name, and an array for marks in 5 subjects. Write a program to read data for one student and calculate their total marks and percentage.
-Define a union named DataType that can hold an int, a float, and a char. Demonstrate that only one member can be used at a time.
-Write a program that asks the user to enter a line of text and appends it to a file named log.txt.
-Write a program that reads a text file and counts the total number of characters, spaces, and lines in it.
-Write a program to copy the contents of one file (source.txt) to another file (destination.txt), handling file-not-found errors.
-Write a program to concatenate two strings into a third string without using the strcat() library function.
-Write a program to check if a given string is a palindrome (reads the same forwards and backward), ignoring case.
-Write a program that takes a string as input and counts the frequency of each character in it.
-Write a recursive function to calculate the factorial of a non-negative integer.
-Write a recursive function to generate the Nth term in the Fibonacci sequence.
-Write a recursive function int multiply(int a, int b) that calculates the product of two integers without using the * operator (you can use addition and subtraction).
+
+[SOLVED] Write a C program to swap the values of two integer variables without using a temporary (third) variable.
+
+[SOLVED] Write a program to find the largest among three distinct numbers entered by the user.
+
+[SOLVED] Write a program to calculate the roots of a quadratic equation (ax² + bx + c = 0). The program should handle all three cases: real and distinct roots, real and equal roots, and imaginary roots.
 
 
+[SOLVED] Write a C program that takes principal amount, rate of interest, and time in years as input and calculates the simple interest. Use appropriate data types for all variables.
 
+[SOLVED] Write a program that converts a temperature from Celsius to Fahrenheit. The formula is F = (C * 9/5) + 32.
 
+[SOLVED] Write a program to take a decimal number as input and convert it into its binary representation.
 
-no need to label all question diffrently give me 1 commplete list of all 30 questions
+[SOLVED] Write a program to check if a given year is a leap year or not. A year is a leap year if it is divisible by 4, except for end-of-century years, which must be divisible by 400.
 
-gemini-2.5-pro
-Of course! Here are 30 programming-only questions based on the topics you provided.
+[SOLVED] Write a program to create a simple calculator that performs addition, subtraction, multiplication, or division based on user input. The user should enter two numbers and an operator (+, -, *, /). Use a switch statement to handle the operations.
 
-Introduction to Programming & Problem-Solving (3 Questions)
-Write a C program to swap the values of two integer variables without using a temporary (third) variable.
-Write a program to find the largest among three distinct numbers entered by the user.
-Write a program to calculate the roots of a quadratic equation (ax² + bx + c = 0). The program should handle all three cases: real and distinct roots, real and equal roots, and imaginary roots.
-C Language Fundamentals (3 Questions)
-Write a C program that takes principal amount, rate of interest, and time in years as input and calculates the simple interest. Use appropriate data types for all variables.
-Write a program that converts a temperature from Celsius to Fahrenheit. The formula is F = (C * 9/5) + 32.
-Write a program to take a decimal number as input and convert it into its binary representation.
-Control Structures (3 Questions)
-Write a program to check if a given year is a leap year or not. A year is a leap year if it is divisible by 4, except for end-of-century years, which must be divisible by 400.
-Write a program to create a simple calculator that performs addition, subtraction, multiplication, or division based on user input. The user should enter two numbers and an operator (+, -, *, /). Use a switch statement to handle the operations.
-Write a program using nested for loops to print the following pattern:
+[SOLVED] Write a program using nested for loops to print the following pattern:
 text
 
 *
@@ -57,46 +24,304 @@ text
 ***
 ****
 *****
-Functions (3 Questions)
-Write a function int isPrime(int n) that takes an integer n as input and returns 1 if the number is prime and 0 otherwise. Use this function in your main() to check a number entered by the user.
-Write a function void findMinMax(int arr[], int size, int* min, int* max) that finds the minimum and maximum elements in an array. The results should be stored in the variables pointed to by min and max.
-Write a function to calculate the power of a number (a^b) without using the pow() library function. The function should take the base and exponent as arguments.
-Arrays (3 Questions)
-Write a program to read N integers into a one-dimensional array and then reverse the array in-place (i.e., without using a second array).
-Write a program to add two 3x3 matrices. You will need to declare three 2D arrays: two for the input matrices and one for the result.
-Write a program to find the second largest element in a one-dimensional integer array.
-Pointers (3 Questions)
-Write a function void swap(int *a, int *b) that swaps the values of two integer variables using pointers. Call this function from main() to demonstrate its usage.
-Write a program to find the length of a string using a pointer. Do not use the strlen() library function.
-Write a function that takes an integer array and its size as input and returns the sum of all its elements. Use pointer arithmetic to traverse the array instead of array indexing (arr[i]).
-Structures and Unions (3 Questions)
-Define a structure named Book with members title (char array), author (char array), and price (float). Write a program to read the details of 3 books and display the details of the book with the highest price.
-Define a structure Student with members roll_no, name, and an array of 5 integers for marks in 5 subjects. Write a program to read the data for one student and calculate their total marks and percentage.
-Define a union named DataType that can hold an int, a float, and a char. Write a program to demonstrate that only one member of the union can be used at a time by assigning a value to the integer member, printing it, then assigning a value to the float member, and printing all members again to observe the corrupted data.
-File Handling (3 Questions)
-Write a program that asks the user to enter a line of text and saves it to a file named log.txt. If the file already exists, the new text should be appended to the end of the file.
-Write a program that reads a text file named source.txt and counts the total number of characters, spaces, and lines in it.
-Write a program to copy the contents of one file (source.txt) to another file (destination.txt). The program should handle cases where the source file does not exist.
-String Handling (3 Questions)
-Write a program to concatenate two strings into a third string without using the strcat() library function.
-Write a program to check if a given string is a palindrome (reads the same forwards and backward), ignoring case. For example, "Madam" should be considered a palindrome.
-Write a program that takes a string as input and counts the frequency of each character in it.
-Recursion (3 Questions)
-Write a recursive function to calculate the factorial of a non-negative integer.
-Write a recursive function to generate the Nth term in the Fibonacci sequence (0, 1, 1, 2, 3, 5, ...).
-Write a recursive function int multiply(int a, int b) that calculates the product of two integers without using the * operator. You can use addition and subtraction. (Hint: a * b is a added to itself b times).
+
+
+[SOLVED] Write a function int isPrime(int n) that takes an integer n as input and returns 1 if the number is prime and 0 otherwise. Use this function in your main() to check a number entered by the user.
+
+[SOLVED] Write a function void findMinMax(int arr[], int size, int* min, int* max) that finds the minimum and maximum elements in an array. The results should be stored in the variables pointed to by min and max.
+
+[SOLVED] Write a function to calculate the power of a number (a^b) without using the pow() library function. The function should take the base and exponent as arguments.
+
+[SOLVED] Write a program to read N integers into a one-dimensional array and then reverse the array in-place (i.e., without using a second array).
+
+[SOLVED] Write a program to add two 3x3 matrices. You will need to declare three 2D arrays: two for the input matrices and one for the result.
+
+[SOLVED] Write a program to find the second largest element in a one-dimensional integer array.
+
+[SOLVED] Write a function void swap(int *a, int *b) that swaps the values of two integer variables using pointers. Call this function from main() to demonstrate its usage.
+
+[SOLVED] Write a program to find the length of a string using a pointer. Do not use the strlen() library function.
+
+[SOLVED] Write a function that takes an integer array and its size as input and returns the sum of all its elements. Use pointer arithmetic to traverse the array instead of array indexing (arr[i]).
+
+[SOLVED] Define a structure named Book with members title (char array), author (char array), and price (float). Write a program to read the details of 3 books and display the details of the book with the highest price.
+
+[SOLVED] Define a structure Student with members roll_no, name, and an array of 5 integers for marks in 5 subjects. Write a program to read the data for one student and calculate their total marks and percentage.
+
+[SOLVED] Define a union named DataType that can hold an int, a float, and a char. Write a program to demonstrate that only one member of the union can be used at a time by assigning a value to the integer member, printing it, then assigning a value to the float member, and printing all members again to observe the corrupted data.
+
+[SOLVED] Write a program that asks the user to enter a line of text and saves it to a file named log.txt. If the file already exists, the new text should be appended to the end of the file.
+
+[SOLVED] Write a program that reads a text file named source.txt and counts the total number of characters, spaces, and lines in it.
+
+[SOLVED] Write a program to copy the contents of one file (source.txt) to another file (destination.txt). The program should handle cases where the source file does not exist.
+
+[SOLVED] Write a program to concatenate two strings into a third string without using the strcat() library function.
+
+[SOLVED] Write a program to check if a given string is a palindrome (reads the same forwards and backward), ignoring case. For example, "Madam" should be considered a palindrome.
+
+[SOLVED] Write a program that takes a string as input and counts the frequency of each character in it.
+
+[SOLVED] Write a recursive function to calculate the factorial of a non-negative integer.
+
+[SOLVED] Write a recursive function to generate the Nth term in the Fibonacci sequence (0, 1, 1, 2, 3, 5, ...).
+
+[SOLVED] Write a recursive function int multiply(int a, int b) that calculates the product of two integers without using the * operator. You can use addition and subtraction. (Hint: a * b is a added to itself b times).
+
+
+
+[SOLVED] Write a program to take two integers as input from the user and print their sum, difference, product, and quotient.
+
+[SOLVED] Write a program that takes a single character as input and prints its ASCII value.
+
+[SOLVED] Write a C program that accepts a decimal number from the user and converts it into its binary and hexadecimal equivalents.
+
+[SOLVED] Write a program using a for loop to print a pyramid pattern of stars (*) for a given number of rows.
+
+[SOLVED] Write a program using a while loop to reverse a given integer (e.g., input 12345 should output 54321).
+
+[SOLVED] Write a program that keeps asking the user to enter a number until they enter 0. After the loop terminates, the program should display the sum of all the numbers entered. Use a do-while loop.
+
+[SOLVED] Write a program to find the largest and smallest elements in a one-dimensional integer array.
+
+[SOLVED] Write a program to perform matrix multiplication for two 3x3 matrices and store the result in a third matrix.
+
+[SOLVED] Write a program to find the sum of the main diagonal elements of a square matrix.
+
+[SOLVED] Write a program that dynamically allocates memory for an array of n integers using malloc(). The user should input n, then the n integers. The program should print the array and then free the allocated memory using free().
+
+[SOLVED] Write a function that takes an integer array and its size as arguments and returns a pointer to the maximum element in the array.
+
+[SOLVED] Define a structure Student with fields for roll_number (int), name (char array), and marks (float). Write a program to read the data for 5 students into an array of structures and then display the details of the student with the highest marks.
+
+[SOLVED] Write a function that takes a Student structure (from the previous question) as an argument and prints its details. Demonstrate passing a structure to a function.
+
+[SOLVED] Write a program that asks the user for their name and age and writes this information to a new file named bio.txt.
+
+[SOLVED] Write a program to read the contents of the bio.txt file created in the previous question and display them on the console.
+
+[SOLVED] Write a program to count the number of vowels, consonants, digits, and whitespace characters in a given string.
+
+
+[SOLVED] Write a program to calculate the compound interest for a given principal, rate, and time period.
+
+[SOLVED] Write a program to check if a given number is an Armstrong number (a number that is equal to the sum of cubes of its digits).
+
+[SOLVED] Write a program to convert a string from lowercase to uppercase without using the strupr() library function.
+
+[SOLVED] Write a function findGCD(int a, int b) that finds the Greatest Common Divisor (GCD) of two numbers using a loop.
+
+[SOLVED] Write a function that takes a string as an argument and reverses it in place using pointers instead of array indices.
+
+[SOLVED] Write a recursive C function to find the sum of the digits of a given integer.
+[SOLVED] Define a structure Complex for a complex number (with real and imaginary parts). Write a function that takes two Complex numbers and returns their sum.
+
+[SOLVED] Write a program to count the number of lines, words, and characters in a given text file.
+
+[SOLVED] Write a program to generate the Fibonacci series up to a specified number of terms using a for loop.
+
+[SOLVED] Write a program to merge two already sorted integer arrays into a single, new sorted array.
+
+[SOLVED] Write your own version of the strcmp() function, named myStrcmp(const char *s1, const char *s2), that compares two strings lexicographically.
+
+[SOLVED] Write a program to sort an array of integers using Bubble Sort, but you must use pointer arithmetic to access array elements instead of the [] subscript operator.
+
+[SOLVED] Write a program that reads a list of integers from a file named numbers.txt, calculates their average, and appends the average to the end of the same file.
+[SOLVED] Define a structure Time with hours, minutes, and seconds as members. Write a program that takes two Time objects as input and calculates the time difference between them.
+
+[SOLVED] Write a program to find and print the transpose of a given m x n matrix.
+
+[SOLVED] Write a program to dynamically create a 2D array of size rows x cols using malloc() where the user inputs the dimensions.
+
+[SOLVED] Write a function that accepts an integer array and its size, and returns the average of all the elements in the array.
+
+[SOLVED] Write a program to remove all vowels from a given string, creating a new string with the result.
+
+[SOLVED] Write a program to find the frequency of each element in an integer array.
+
+[SOLVED] Write a recursive function based on the Euclidean algorithm to find the GCD of two numbers.
+
+[SOLVED] Write a program using bitwise operators (e.g., the bitwise AND operator &) to check if a number is even or odd.
+
+[SOLVED] Write a C program to demonstrate a dangling pointer by returning the address of a local variable from a function.
+
+[SOLVED] Create an array of 5 Student structures (each with name and score). Write a program to sort this array in descending order based on the score.
+
+[SOLVED] Write a program that searches for a specific word in a text file and reports how many times that word appears.
+
+[SOLVED] Write a program to rotate the elements of an array to the left by a specified number of positions (k).
+
+[SOLVED] Implement a recursive binary search function binarySearch(int arr[], int left, int right, int key) that returns the index of key in a sorted array, or -1 if it's not present.
+
+
+[SOLVED] Write a program to check if a given number is a "Perfect Number" (a number that is equal to the sum of its proper divisors).
+
+[SOLVED] Write a program to print a hollow square pattern of stars (*) for a given side length.
+
+[SOLVED] Write two functions: one to convert temperature from Celsius to Fahrenheit and another to convert from Fahrenheit to Celsius. Demonstrate both in your main function.
+
+[SOLVED] Write a program to count the total number of set bits (1s) in the binary representation of an integer.
+
+[SOLVED] Write a program that prints the size (in bytes) of all basic data types in C (char, int, float, double, long int, etc.) using the sizeof operator.
+
+[SOLVED] Write a program to delete an element from a specified position in a one-dimensional array.
+[SOLVED] Implement a linearSearch() function that takes an integer array, its size, and a key to search for. The function should return the index of the key if found, otherwise return -1.
+
+[SOLVED] Write a program to find and print the sum of each individual row and each individual column of a 2D matrix.
+
+[SOLVED] Write a program to count the total number of words in a given string. (Assume words are separated by a single space).
+
+[SOLVED] Write a program to check if two given strings are anagrams of each other (i.e., they contain the same characters in a different order).
+
+[SOLVED] Write a program to demonstrate the use of a pointer to a pointer (**p). Initialize an integer variable, a pointer to it, and then a pointer to the first pointer. Access the value of the integer using the double pointer.
+
+[SOLVED] Create an array of 5 character pointers, each pointing to a different string. Write a program to sort these strings alphabetically by only swapping the pointers, not the string data itself.
+
+[SOLVED] Define a nested structure: an Employee structure that contains employee_id and a nested Date structure for their joining_date (which has day, month, year). Write a program to read and display data for one employee.
+
+[SOLVED] Write a program to dynamically allocate memory for a struct variable using malloc(), read data into its members, and access them using the arrow (->) operator.
+
+[SOLVED] Write a program that compares two text files and reports the first line and character position where they differ.
+
+[SOLVED] Write a recursive function that prints a given string in reverse order.
+
+[SOLVED] Write a program to calculate the sum of the series: 1 - 2 + 3 - 4 + 5 - ... up to n terms.
+
+[SOLVED] Write a program to find a "saddle point" in a 2D matrix. A saddle point is an element which is the minimum in its row and the maximum in its column.
+
+[SOLVED] Write your own version of the strstr() function, named myStrStr(const char *haystack, const char *needle), which finds the first occurrence of the needle string in the haystack string.
+
+[SOLVED] Write a program to store an array of 5 struct Book (with id and price) into a binary file (books.dat). Then, read the data back from the file and display it on the console.
+
+[SOLVED] Write a program that uses function pointers to create a simple calculator. Define functions for add, subtract, etc., and call them using a pointer based on user's choice.
+
+[SOLVED] Write a function that concatenates two strings into a new string, where the memory for the new string is dynamically allocated. The function should return a pointer to this new string.
+
+[SOLVED] Write a program to find and print all unique elements present in an integer array.
+
+[SOLVED] Write a recursive function to calculate x raised to the power of y (i.e., x^y).
+
+[SOLVED] Write a program that tries to open a file for reading that does not exist. The program must properly check if the file pointer is NULL and print an appropriate error message to the user instead of crashing.
+
+[SOLVED] Write a program to determine if a given matrix is a sparse matrix (a matrix in which the number of zero elements is more than half of the total elements).
+
+[SOLVED] Write a program to remove all duplicate characters from a given string, keeping only the first occurrence of each character.
+
+[SOLVED] Write a recursive function that prints all the elements of an integer array from start to finish.
+
+[SOLVED] Write a function integerToString(int n, char str[]) that converts a given integer n into its equivalent string representation and stores it in the str character array. Do not use any built-in library functions like sprintf or itoa.
+
+
+[SOLVED] Write a program to check if a number is a "Strong Number" (a number where the sum of the factorial of its digits equals the number itself, e.g., 145 = 1! + 4! + 5!).
+
+[SOLVED] Write a program to print Pascal's Triangle for a given number of rows.
+
+[SOLVED] Write a function that swaps two integer values using bitwise XOR operators, and demonstrate its use in main.
+
+[SOLVED] Implement the "Selection Sort" algorithm in a function to sort an array of integers in ascending order.
+
+[SOLVED] Write a function that accepts an integer array and its size, and returns a pointer to the second largest element in the array.
+
+[SOLVED] Write a recursive function to calculate the sum of all elements in an integer array.
+[SOLVED] Define a struct Distance with members feet (int) and inches (float). Write a function that adds two Distance objects, correctly converting inches to feet if the sum of inches is 12 or more.
+
+[SOLVED] Write a program to read a matrix of integers from a file named matrix.txt and store it in a 2D array.
+
+[SOLVED] Write a program to find and print the most frequently occurring character in a given string.
+
+[SOLVED] Write a program to check if a given square matrix is an identity matrix (1s on the main diagonal, 0s everywhere else).
+
+[SOLVED] Write a function that takes a string and a character as input and removes all occurrences of that character from the string in-place.
+
+[SOLVED] Write a recursive function to solve the Tower of Hanoi puzzle for a given number of disks.
+
+[SOLVED] Write a program to find the LCM (Least Common Multiple) of two integers using a while loop and the relationship (a * b) = GCD(a, b) * LCM(a, b).
+
+[SOLVED] Write a program that dynamically allocates an array of 5 integers, then uses realloc() to expand the array to hold 10 integers, and fills the new spaces.
+
+[SOLVED] Write a program that merges the contents of two text files, file1.txt and file2.txt, into a new file named merged.txt.
+
+[SOLVED] Write your own version of the strcpy() function, myStrcpy(char *destination, const char *source), which copies the source string into the destination.
+
+[SOLVED] Define a structure using bit-fields to store multiple boolean-like flags (e.g., is_visible, is_editable, is_printable) in a single byte. Demonstrate setting and reading these flags.
+
+[SOLVED] Write a program that accepts a string (like a CSV line, e.g., "apple,banana,cherry") and a delimiter character (,), then splits the string into tokens and prints each token on a new line.
+
+[SOLVED] Write a program to calculate the determinant of a 2x2 matrix.
+
+[SOLVED] Write a function that takes a variable number of integer arguments (using <stdarg.h>) and returns their product.
+
+[SOLVED] Write a program that accepts a filename as a command-line argument and prints the contents of that file to the screen.
+
+[SOLVED] Write a recursive function to check if a given string is a palindrome.
+[SOLVED] Create an array of function pointers where each pointer holds the address of a math function (e.g., add, subtract). Use the array to perform a calculation based on user input.
+
+[SOLVED] Write a program to find if there is a pair of elements in an integer array whose sum is equal to a given target value.
+
+[SOLVED] Write a program to read an array of struct Student (with roll_no and name) from a binary file and then search for a specific student by roll_no.
+
+[SOLVED] Write a program that asks the user to enter a character and then determines if it is an uppercase alphabet, lowercase alphabet, a digit, or a special symbol.
+
+[SOLVED] Write a function that reverses a specified portion of an array between two given indices using pointers.
+
+[SOLVED] Write a program to demonstrate the use of a void pointer. Initialize it to point to an int, print the value, then point it to a float, and print its value correctly.
+
+[SOLVED] Write a program to convert a given number of days into years, weeks, and remaining days.
 
 
 
 
-write 30 programming question(no need for theory questions only programming questions using the topics provided) on topic kIntroduction to Programming: Basics of algorithms and their significance, along with understanding problem-solving through programming.
-C Language Fundamentals: Covers C syntax, data types (int, float, char, etc.), and number systems (binary, octal, decimal, hexadecimal).
-Control Structures: if-else, switch, for, while, and do-while loops.
-Functions: Definition, declaration, and use of user-defined functions to break down programs.
-Arrays: Declaring and manipulating one-dimensional and multi-dimensional arrays.
-Pointers: Understanding and using pointers for memory management and dynamic operations.
-Structures and Unions: Defining user-defined data types to group related variables.
-File Handling: Reading from and writing to files, including different file opening modes.
-String Handling: Functions and techniques for manipulating strings.
-Recursion: Understanding recursive functions as an alternative to iterative approaches, with potential programming assignments like multiplying integers without the * operator.
+[SOLVED] Write a program to calculate a monthly electricity bill. The rates are: first 50 units at $0.50/unit, next 100 units at $0.75/unit, next 100 units at $1.20/unit, and units above 250 at $1.50/unit. An additional 20% surcharge is added to the total bill.
 
+[SOLVED] Write your own version of the atoi function, myAtoi(const char *str), that converts a string of digits into its integer equivalent without using any library functions.
+
+[SOLVED] Write a program to traverse a 2D matrix in a spiral pattern (clockwise) and print the elements.
+
+[SOLVED] Write a recursive function to find the minimum element in an integer array.
+
+[SOLVED] Write a program that dynamically allocates memory for an array of n Student structures, where Student contains name and id.
+
+[SOLVED] Define a struct Shape that contains a type (enum for CIRCLE, RECTANGLE) and a union which can store either a radius (for a circle) or width and height (for a rectangle). Write a function to calculate the area based on the shape's type.
+
+[SOLVED] Write a program that uses fseek() to read and display the 5th record from a binary file containing an array of Employee structures, without reading the first four.
+[SOLVED] Implement the "Insertion Sort" algorithm in a function to sort an array of floating-point numbers.
+
+[SOLVED] Write a program to print a diamond pattern of asterisks (*) where the user specifies the height of the middle row.
+
+[SOLVED] Write a function swapNibbles(unsigned char c) that swaps the upper 4 bits with the lower 4 bits of a character byte and returns the result. (A nibble is 4 bits).
+
+[SOLVED] Write a function that validates if a given string is a valid email address based on a simple rule (must contain one @ and at least one . after the @).
+[SOLVED] Implement a generic max function using void pointers and a comparison function pointer that can find the maximum element in any type of array (e.g., int, float, char).
+
+[SOLVED] Write a recursive function to check if an integer array is sorted in descending order.
+
+[SOLVED] Write a program to find the union and intersection of two unsorted integer arrays.
+[SOLVED] Implement your own version of strlen() using only pointer arithmetic (e.g., while(*p++)) to count the characters.
+
+[SOLVED] Write a C program that mimics the cat command. It should take one or more filenames as command-line arguments and print their contents to the standard output in sequence.
+
+[SOLVED] Define a Time structure (hours, minutes, seconds). Write a function updateTime(struct Time *t) that takes a pointer to a Time object and advances it by one second, correctly handling rollovers.
+
+[SOLVED] Write a program to find all "Automorphic" numbers within a given range (a number whose square ends in the same digits as the number itself, e.g., 76*76 = 5776).
+
+[SOLVED] Write a program to rotate a square matrix 90 degrees clockwise without using another matrix (in-place).
+
+[SOLVED] Write a program to perform basic run-length encoding on a string. For example, the input "WWWWWWWWWWWWBWWWWWWWWWWWWBBB" should produce "W12B1W12B3".
+
+[SOLVED] Write a function that uses a static local variable to count how many times it has been called. The main function should call it in a loop to demonstrate that the count persists.
+
+[SOLVED] Write a function that takes an integer n and returns a dynamically allocated array containing the first n Fibonacci numbers. Remember to free the memory in main.
+
+[SOLVED] Write a recursive function findLastOccurrence(char *str, char target, int index) that finds the last index of a character in a string.
+
+[SOLVED] Write a program that reads a text file, finds a specific word provided by the user, and replaces all occurrences of that word with "REDACTED", writing the result to a new file.
+
+[SOLVED] Find the "majority element" in an array (an element that appears more than n/2 times), assuming one always exists.
+
+[SOLVED] Create an array of struct Product (with id, name, price). Write a program that allows a user to search for a product by its name and then update its price.
+
+[SOLVED] Write a program to add two binary numbers that are provided as strings (e.g., "1101" + "101" = "10010").
+
+[SOLVED] Implement a number guessing game where the computer picks a random number. The user guesses, and the program provides "too high" or "too low" feedback inside a while loop until the user guesses correctly.
+
+[SOLVED] Create a Packet union that can hold either a 32-bit unsigned int or an array of 4 unsigned char. Demonstrate this by setting the 4 bytes individually and then printing the resulting unsigned int value.
